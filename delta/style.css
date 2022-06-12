@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    background-color: #020202;
+    background-image: linear-gradient(#1c1b1c, #4d4b4c);
+    padding-bottom: 130px;
+  }
+
+  #level-title {
+    font-family: serif;
+    font-size: 5rem;
+    margin:  2% 5% 2% 5%;
+    color: #f6f5f1;
+  }
+  
+  .container {
+    display: block;
+    width: 50%;
+    margin: auto;
+  
+  }
+  
+  .btn {
+    margin: 15px;
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 0%;
+  }
+  
+  .game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
+  
+  .btn {
+    background-color: #d0d0d0;
+  }
+  
+  .pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+  
+  .pressed1 {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
